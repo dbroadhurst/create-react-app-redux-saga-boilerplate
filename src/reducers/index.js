@@ -1,9 +1,9 @@
 import { combineReducers } from 'redux'
 import { reducer as formReducer } from 'redux-form'
-import { reducer as init } from '../sagas/testSaga/reducer'
+import { reducer as testSaga } from '../sagas/testSaga/reducer'
 
 const reducers = combineReducers({
-  init,
+  testSaga,
   form: formReducer
 })
 

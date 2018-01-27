@@ -3,7 +3,7 @@ import { call, put, takeLatest } from 'redux-saga/effects'
 import * as actions from './actions'
 
 let defaultState = {
-  init: false
+  message: 'has not run'
 }
 
 function* init() {
@@ -11,7 +11,7 @@ function* init() {
     type: actions.SET_STATE,
     payload: {
       ...defaultState,
-      init: true
+      message: 'has been run'
     }
   })
 }

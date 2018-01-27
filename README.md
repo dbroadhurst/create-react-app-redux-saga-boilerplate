@@ -1,8 +1,11 @@
-# create-react-app-redux-saga-boilerplate
+# create-react-app-redux-router-saga-boilerplate - filling the gaps for non-trival apps
+
+create-react-app is great but even a basic app needs more than a component renderer. Simple boilerplate to fill the gaps.
 
 create-react-app +
 
 * redux
+* react-router
 * saga
 * material-ui
 
