@@ -1,6 +1,10 @@
 {
-  "name": "gpan-app",
+  "name": "create-react-app-redux-saga-boilerplate",
+  "description": "Filling the gaps for non-trival apps",
+  "keywords": ["react", "redux", "saga"],
   "version": "0.1.0",
+  "author": "David Broadhurst",
+  "license": "MIT",
   "private": true,
   "dependencies": {
     "aws-cognito-redux-saga": "^1.5.7",
