@@ -4,10 +4,11 @@ create-react-app is great but even a basic app needs more than a component rende
 
 create-react-app +
 
-* redux
-* react-router
-* saga
-* material-ui
+* redux - https://redux.js.org/docs/introduction/
+* react-router - https://reacttraining.com/react-router/
+* saga - https://redux-saga.js.org/docs/introduction/
+* material-ui - http://www.material-ui.com/#/
+* storybook - https://storybook.js.org/
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 

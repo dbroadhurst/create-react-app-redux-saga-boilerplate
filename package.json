@@ -1,7 +1,11 @@
 {
   "name": "create-react-app-redux-saga-boilerplate",
   "description": "Filling the gaps for non-trival apps",
-  "keywords": ["react", "redux", "saga"],
+  "keywords": [
+    "react",
+    "redux",
+    "saga"
+  ],
   "version": "0.1.0",
   "author": "David Broadhurst",
   "license": "MIT",
@@ -21,10 +25,17 @@
     "redux-saga": "^0.16.0",
     "validator": "^9.2.0"
   },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.3.12",
+    "@storybook/addon-console": "^1.0.0",
+    "@storybook/react": "^3.3.12",
+    "storybook-addon-material-ui": "^0.8.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   }
 }
