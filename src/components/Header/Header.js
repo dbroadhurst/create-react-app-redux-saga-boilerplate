@@ -16,7 +16,7 @@ export default class HeaderComponent extends React.Component {
       <div>
         <Toolbar>
           <ToolbarGroup>
-            <div>testSaga {message}</div>
+            <div>{`${process.env.REACT_APP_NAME}-v${process.env.REACT_APP_VERSION}`}</div>
           </ToolbarGroup>
         </Toolbar>
       </div>

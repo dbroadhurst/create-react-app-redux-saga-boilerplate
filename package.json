@@ -6,7 +6,7 @@
     "redux",
     "saga"
   ],
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "David Broadhurst",
   "license": "MIT",
   "private": true,
